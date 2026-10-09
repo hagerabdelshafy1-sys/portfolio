@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <defs>
+    <linearGradient id="p2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#162035" />
+      <stop offset="100%" stop-color="#243459" />
+    </linearGradient>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#76C0EC" stroke-width="0.6" stroke-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#p2Bg)" />
+  <rect width="800" height="600" fill="url(#grid2)" />
+
+  <rect x="20" y="20" width="760" height="560" rx="12" fill="none" stroke="#76C0EC" stroke-width="1.2" stroke-opacity="0.25" />
+
+  <!-- Ambient light -->
+  <circle cx="200" cy="200" r="160" fill="#76C0EC" fill-opacity="0.1" filter="blur(40px)" />
+  <circle cx="600" cy="400" r="140" fill="#FF95A5" fill-opacity="0.08" filter="blur(35px)" />
+
+  <!-- Stationery & Print Mockup Presentation -->
+  <g transform="translate(180, 80)">
+    <!-- Business card tilted / offset -->
+    <rect x="220" y="200" width="220" height="130" rx="6" fill="#FFF6DC" stroke="#425B9A" stroke-width="1.5" transform="rotate(8 220 200)" />
+    <text x="280" y="270" fill="#141c2e" font-family="'IBM Plex Sans Arabic', sans-serif" font-weight="700" font-size="16" transform="rotate(8 220 200)">مبادرة يقين</text>
+
+    <!-- Brochure Book Mockup -->
+    <rect x="0" y="20" width="260" height="340" rx="8" fill="#141c2e" stroke="#FFF6DC" stroke-width="1.5" stroke-opacity="0.4" />
+    <rect x="20" y="40" width="220" height="180" rx="4" fill="#425B9A" fill-opacity="0.4" />
+    <path d="M 50 160 Q 130 90, 210 130" stroke="#76C0EC" stroke-width="3" fill="none" />
+    <circle cx="130" cy="115" r="18" fill="#FF95A5" />
+    <text x="130" y="200" fill="#FFF6DC" font-family="'IBM Plex Sans Arabic', sans-serif" font-weight="700" font-size="18" text-anchor="middle">هوية ومطبوعات يقين</text>
+    <rect x="30" y="240" width="120" height="8" rx="4" fill="#FFF6DC" fill-opacity="0.8" />
+    <rect x="30" y="260" width="180" height="6" rx="3" fill="#76C0EC" fill-opacity="0.5" />
+    <rect x="30" y="275" width="150" height="6" rx="3" fill="#76C0EC" fill-opacity="0.3" />
+  </g>
+
+  <!-- Editorial Info -->
+  <g transform="translate(60, 480)">
+    <text x="0" y="0" fill="#FF95A5" font-family="'Outfit', sans-serif" font-weight="700" font-size="12" letter-spacing="3">PROJECT 02 // PRINT DESIGN</text>
+    <text x="0" y="28" fill="#FFF6DC" font-family="'IBM Plex Sans Arabic', sans-serif" font-weight="700" font-size="22">هوية ومطبوعات — مبادرة يقين</text>
+    <text x="0" y="52" fill="#76C0EC" font-family="'Outfit', sans-serif" font-weight="400" font-size="13" letter-spacing="1">PROJECT IMAGE PLACEHOLDER // READY TO REPLACE</text>
+  </g>
+</svg>
